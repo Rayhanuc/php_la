@@ -82,7 +82,7 @@
 
       <ul>
  
-        <?php foreach(filterByAuthor($books, 'voluptas culp') as $book) : ?>
+        <?php foreach(filterByAuthor($books, 'Andy Wair') as $book) : ?>
           <li class="sigle_reader">
             <a href="<?= $book['purchaseUrl'] ; ?>">
               <h2>
